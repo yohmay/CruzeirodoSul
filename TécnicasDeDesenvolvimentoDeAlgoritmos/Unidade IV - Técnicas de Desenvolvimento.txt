@@ -1,0 +1,50 @@
+// Exemplo 1 - Estrutura de Repetição incremento.
+Algoritmo "EstruturadeRepetição"
+
+Inicio
+
+para 1 <- 0 até 5 faça [passo1]
+escreva("estudar")
+
+fimpara
+Fimalgoritmo
+
+// Exemplo 2 - Estrutura de Repetição Condicional com teste no início.
+Algoritmo "EstruturadeRepetição"
+
+Inicio
+
+i <- 0
+enquanto i <= 5 faça
+escreval("estudar")
+i-i + 1
+
+fimenquanto
+Fimalgoritmo
+
+// Exemplo 3 - Estrutura de Repetição Condicional com teste no início.
+Algoritmo "EstruturadeRepetição"
+
+Inicio
+
+i <- 0
+enquanto i <> 5 faça
+escreval("Digite um número")
+leia i
+
+fimenquanto
+Fimalgoritmo
+
+// Exemplo 4 - Estrutura de Repetição Condicional com teste no final.
+Algoritmo "EstruturadeRepetição"
+
+Inicio
+
+i <- 10
+repita
+escreval("Valor de I =", i)
+i - i + 10
+até i > 50
+
+fimenquanto
+Fimalgoritmo

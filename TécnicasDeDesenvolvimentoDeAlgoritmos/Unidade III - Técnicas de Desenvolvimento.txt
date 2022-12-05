@@ -1,0 +1,19 @@
+Algoritmo "Exemplo1"
+
+Var
+// Valores de Entrada
+x=2  Y=3
+Inicio
+se (x > 2 E y <= 3)
+entao escreval("Verdadeira")
+senao escreval("Falso")
+fimse
+
+// Exemplo2
+
+se (x > 1 ou y > 3)
+entao escreval("Verdadeira")
+senao escreval("Falsa")
+fimse
+
+Fimalgoritmo

@@ -1,0 +1,29 @@
+Algoritmo "Exemplo 1"
+
+
+Inicio
+para i <- 1 até 5 faça [passo1]
+escreva("Digite o ", i, "número")
+leia (x[i])
+fimpara
+
+para i <- 1 até 5 faça [passo1]
+escreval("Conteúdo da posição", i, "do vetor")
+escreval(x[i])
+fimpara
+
+Fimalgoritmo
+
+Algoritmo "Exemplo 2"
+// A variável i será utilizada como primeiro índice, ou seja, linha
+// A variável j será utilizda como segundo índice, ou seja, coluna
+
+Inicio
+para i < até 3 faça [passo1]
+para j <- até 5 faça [passo1]
+escreva("Digite o número da linha", i, "coluna", j)
+leia(mat[i,j])
+fimpara
+fimpara
+
+Fimalgoritmo

@@ -1,0 +1,83 @@
+//Início do programa principal
+Algoritmo "Exemplo1"
+inicio
+
+escreval("digite o primeiro número")
+leia n1
+escreval("digite o segundo número")
+leia n2
+somar
+subtrair
+multiplicar
+dividir
+
+
+Algoritmo "Exemplo2"
+Var n1, n2: real
+
+procedimento somar
+var s: real
+
+Inicio
+s <- n1 + n2
+escreval("soma = ", s)
+Fimprocedimento
+
+
+procedimento subtrair
+var sb: real
+
+Inicio
+sb <- n1 - n2
+escreval("subtração = ", sb)
+Fimprocedimento
+
+
+procedimento multiplicar
+var m: real
+
+Inicio
+m <- n1 * n2
+escreval("multiplicação = ", m)
+Fimprocedimento
+
+
+procedimento dividir
+var d: real
+
+Inicio
+se (n2 = 0)
+entao escreval ("impossivel dividir por zero")
+senao inicio
+      d <- n1/n2
+escreval("divisao =", d)
+ fimse
+Fimprocedimento
+
+fimalgoritmo
+
+fimalgoritmo
+
+Algoritmo "CalcularSalario"
+
+inicio
+escreval("Digite o salário")
+leia(sal)
+s <- sal + aumento (sal)
+ns <- s - imposto (s)
+escreval ("novo salário = ", ns)
+
+var s, sal, ns: real
+
+funcao aumento (sal: real)
+inicio
+aumento <- sal * 10%
+retorne aumento
+fimfunção
+
+inicio
+imposto <- sal * 6%
+retorne imposto
+fimfunção
+
+fimalgoritmo

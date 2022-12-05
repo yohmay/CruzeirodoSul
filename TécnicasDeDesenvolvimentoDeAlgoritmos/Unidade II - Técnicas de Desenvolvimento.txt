@@ -1,0 +1,25 @@
+Algoritmo "semnome"
+  // Seção de Declarações das variáveis
+Var
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+
+Fimalgoritmo
+
+Algoritmo "exemplo1"
+// Função: Calcular a média aritmética entre duas notas
+// Autor: Yohana Mayra
+// Data 09/11/2022
+var nota1, nota2, media: real
+
+inicio
+
+escreva("Digite a primeira nota")
+leia("nota1")
+escreva("Digite a segunda nota")
+leia("nota2")
+media <- (n1 + n2)/2
+escreva("Média =", media)
+
+Fimalgoritmo

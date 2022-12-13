@@ -1,0 +1,61 @@
+<!-- Exemplo Operadores relacionais, de escolha e de igualdade. -->
+<script language="javascript">
+    var data_hora = new Date();
+    var hora = data_hora.getHours();
+    if (hora < 10) {
+        alert("Bom dia!!")
+        if (previsao_tempo == "chuvoso"){
+            alert("Está chovendo, leve o guarda-chuva")
+        }
+    }
+    else if (hora > 12 && hora < 18){
+        alert("Boa tarde..");
+    }
+    else{
+        alert("Boa noite..")
+    }
+</script>
+
+<!-- Exemplo 2 -->
+
+<script language="javascript">
+    var cont;
+    for (cont = 0; cont < 10; cont++){
+        alert("Número:" + cont + "<br/>");
+    }
+</script>
+
+<script language="javascript">
+    var cont;
+    while(cont < 10){
+        alert("Número:" + cont + "<br/>");
+        cont = cont + 1; //ou cont++;
+    }
+</script>
+
+<!-- Exemplo Vetores. -->
+
+<script language="javascript">
+    var frutas = new Array();
+    frutas[0] = "Maça";
+    frutas[1] = "Banana";
+    frutas[2] = "Morango";
+
+    document.write(frutas[0] + "<br/>")
+    document.write(frutas[1] + "<br/>")
+    document.write(frutas[2] + "<br/>")
+</script>
+
+<!-- Exemplo 2 -->
+
+<script language="javascript">
+    var i;
+    var frutas = new Array();
+    frutas[0] = "Maça";
+    frutas[1] = "Banana";
+    frutas[2] = "Morango";
+
+    for(i = 0; i <= 2; i++){
+        document.write(frutas[i] + "<br/>")
+    }
+</script>

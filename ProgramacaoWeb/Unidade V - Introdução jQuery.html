@@ -1,0 +1,144 @@
+<!-- jQuery -->
+
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+    <title>jQuery</title>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+    <body>
+    </body>
+</head>
+</html>
+
+<!-- Seletores básicos -->
+
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+    <title>Seletores Básicos</title>
+    <script type="text/javascript src="http://code.jquery.com/jquery-1.9.1.js">
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("h1.classeX").text("Combinando Seletores")
+        });
+
+    </script>
+</head>
+    <body>
+        <h1 class="classeX">Aprendendo jQuery</h1>
+        <h1 class="classeX">Aprendendo jQuery</h1>
+        <h1 class="classeX">Aprendendo jQuery</h1>
+    </body>
+</html>
+
+<!-- Seletores em atributos -->
+
+<!DOCTYPE html>
+<head>
+
+    <title>Seletores Básicos em Atributos</title>
+    <script type="text/javascript src="http://code.jquery.com/jquery-1.9.1.j>
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("[type='text']").val("Inserindo um valor no campo texto");
+            $("[type='txtNome']").val("Nova Informação")
+        });
+
+    </script>
+</head>
+    <body>
+        <input type="text" name="txtInfo" id="txtInfo">
+        <input type="text" name="txtNome" id="txtNome">
+    </body>
+</html>
+
+<!-- Eventos  -->
+
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+    <title>Seletores Básicos em Atributos</title>
+    <script type="text/javascript src="http://code.jquery.com/jquery-1.9.1.j>
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("#btnBotao").click(function(){
+                $("#div1").hide();
+            });
+        });
+    </script>
+</head>
+    <body>
+        <input type="button" id="btnBotao" value="Clique aqui" />
+    </body>
+</html>
+
+<!-- Métodos  -->
+
+<!DOCTYPE html>
+<head>
+    <script type="text/javascript src="http://code.jquery.com/jquery-1.9.1.j>
+    </script>
+    <body>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#b1").click(function(){
+                    $("[type='text']").val("inserindo um valor novo");
+                    $("[type='text']").before("- Antes -");
+                    $("[type='text']").after("- Depois - ");
+                    $("#d1").prepend("Aprendendo");
+                    $("#d1").append("jQuery");
+                    $("#d2").html("Programação Web");          
+                });
+            });
+        </script>
+        <style type="text/css">
+            div{
+                border-width: 1px;
+                border-style: solid;
+            }
+        </style>
+    <div id="d1">Aprendendo jQuery</div>
+    <br>
+    <input type="text" value="valor inicial">
+    <input id="b1" type="button" value="Clique aqui">
+    <br>
+    <br>
+    <div id="d2">Praticando jQuery</div>
+    </body>
+</head>
+    <body>
+        <input type="button" id="btnBotao" value="Clique aqui" />
+    </body>
+</html>
+
+
+<!-- CSS -->
+
+<!DOCTYPE html>
+<head>
+    <script type="text/javascript src="http://code.jquery.com/jquery-1.9.1.j>
+    </script>
+    <script>
+        $(function(){
+            $("#btn1").click(function(){
+                // pode ser alterado elemento por elemento
+                // $("#texto").css("color", "red");
+                // $("#texto").css("width", "200px");
+
+                //pode ser alterado em um única linha
+                $("#texto").css(["color:'green', width:'200px'"]);
+            })
+        })
+    </script>
+</head>
+    <body>
+        <div id="texto">
+            Universidade Cruzeiro do Sul
+        </div>
+        <button id="btn1">Alterar cor da fonte</button>
+    </body>
+</html>

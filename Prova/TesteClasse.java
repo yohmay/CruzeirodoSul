@@ -1,8 +1,9 @@
-public class TesteClasse {
+/* public class TesteClasse {
     public static void main(String args[]) {
-        Classe qualquer = new Classe();
+        classe qualquer = new classe();
         qualquer.item1 = "Teste";
         System.out.println(qualquer.item1);
     }
     
 }
+*/
